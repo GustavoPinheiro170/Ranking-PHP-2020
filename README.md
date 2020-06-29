@@ -2,4 +2,4 @@
 Sistema de Ranking em PHP MYSQL
 
 
-![Alt text](../../logo.jpg?raw=true "Optional Title")
+![Alt text](../../repository/logo.jpg?raw=true "Optional Title")
