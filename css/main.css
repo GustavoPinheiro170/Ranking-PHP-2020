@@ -1,0 +1,30 @@
+tbody {
+    margin-left: 15px;
+}
+
+.background::after {
+    background-color: blue;
+    z-index: 1;
+}
+
+.background img {
+    width: 100%;
+    height: auto;
+    content: "";
+    background-color: white;
+    top: 0;
+    left: 0;
+    position: relative;
+}
+
+.body {
+    background-color: #ffffff;
+    position: relative;
+    padding-bottom: 200px;
+}
+
+@media (max-width: 768px) {
+    .background img {
+        height: auto;
+    }
+}

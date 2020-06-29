@@ -1,0 +1,157 @@
+/* SISTEMA GRID */
+
+* {
+    margin: 0;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/* container */
+
+.container {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+}
+
+@media(min-width: 1170px) {
+    .container {
+        max-width: 1270px;
+        padding: 0px;
+    }
+}
+
+
+/* linha */
+
+.row {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.row:before,
+.row:after {
+    content: "";
+    display: table;
+}
+
+.row:after {
+    clear: both;
+}
+
+
+/* colunas */
+
+.col {
+    display: inline-block;
+    vertical-align: top;
+    min-height: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 100%;
+    margin-right: -4px;
+    *zoom: 1;
+    *display: inline;
+}
+
+
+/* Duas Colunas */
+
+@media (min-width: 480px) {
+    .col-2 {
+        width: 50%;
+    }
+}
+
+
+/* Duas Colunas */
+
+@media (min-width: 728px) {
+    .col-3 {
+        width: 33.3333%;
+    }
+}
+
+
+/* Sidebar */
+
+@media(min-width: 992px) {
+    .col-content {
+        width: 60%;
+        margin-top: 16px;
+    }
+    .col-sidebar {
+        width: 40%;
+    }
+}
+
+@media(max-width: 992px) {
+    .col-content {
+        margin-left: 0px;
+        width: 100%;
+        height: auto;
+        
+        ;
+    }
+    .col-sidebar {
+        margin-left: 5%;
+    }
+    h2 {
+        font-size: 60px;
+    }
+    span,
+    td {
+        font-size: 30px;
+    }
+    .equipes__sigla {
+        -webkit-font-smoothing: antialiased;
+        color: #666;
+        flex-grow: 2;
+        font-family: opensans;
+        font-size: 3em;
+        font-weight: 400;
+        letter-spacing: .2px;
+        line-height: 0.8;
+    }
+    .placar-box__valor {
+        font-size: 2.3125em;
+        font-family: opensans;
+        font-style: normal;
+        font-weight: 700;
+        vertical-align: middle;
+    }
+    .equipes__escudo {
+        height: 50px;
+        width: 50px;
+    }
+    .jogo__informacoes {
+        color: #555;
+        font-family: opensans;
+        font-size: 0.6875em;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: -.3px;
+        text-transform: uppercase;
+        font-size: 12px;
+        margin: 40px;
+    }
+    p {
+        font-size: 25px;
+        display: inline-block;
+        margin: 10px;
+    }
+    ul{
+        text-align: center;
+    }
+}
+
+.side-bar {
+    background: black;
+    display: relative;
+    z-index: 999;
+}

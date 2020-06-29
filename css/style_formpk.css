@@ -1,0 +1,66 @@
+
+    body {
+        font-family: "Montserrat", sans-serif;
+    }
+
+    table {
+        padding: 20px;
+        align-items: center;
+        text-align: center;
+        border: solid 1px #ccd0d4;
+        border-radius: 2px;
+        color: black;
+        font-family: "Montserrat", sans-serif;
+        font-size: 15px;
+    }
+
+    td {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    tbody {
+        margin-left: 10px;
+    }
+
+    .btn {
+        color: white;
+
+    }
+
+    form {
+        padding: 20px;
+        align-items: center;
+        text-align: center;
+        border: solid 1px #ccd0d4;
+        border-radius: 2px;
+        background: rgb(255, 255, 255);
+
+        color: black;
+        font-family: "Montserrat", sans-serif;
+        font-size: 15px;
+    }
+
+    .titulo {
+        text-align: left !important;
+        font-size: 20px;
+        color: white;
+        background: #167bea;
+        border: 2px solid;
+        padding: 5px;
+        margin: 0px;
+        border-radius: 10px 10px 0px 1px;
+        width: 100%;
+    }
+
+    .classificacao {
+        text-align: left !important;
+        font-size: 20px;
+        color: white;
+        background: #4cc065;
+        border: 2px solid;
+        padding: 5px;
+        margin: 0px;
+        border-radius: 10px 10px 0px 1px;
+        width: 100%;
+    }
